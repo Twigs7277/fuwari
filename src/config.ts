@@ -7,26 +7,26 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Fuwari',
-  subtitle: '这是一个测试',
+  title: 'Jiwoo纪事簿',
+  subtitle: '以蛙跃古池的刹那声响，凝固永恒寂寥',
   lang: 'zh_CN',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
   themeColor: {
-    hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
-    fixed: false,     // Hide the theme color picker for visitors
+    hue: 250,         // 在这里设置你的主题色，Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+    fixed: false,     // 选择是否固定主题色，默认false
   },
   banner: {
     enable: false,
-    src: 'assets/images/demo-banner.png',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-    position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
+    src: 'assets/images/demo-banner.png',   // 在这里设置你的首页横幅图片 Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    position: 'center',      // 在这里设置你的横幅图片位置 Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
-      enable: false,         // Display the credit text of the banner image
+      enable: false,         // 这里可以设置你的横幅图片的作者信息 Display the credit text of the banner image
       text: '',              // Credit text to be displayed
       url: ''                // (Optional) URL link to the original artwork or artist's page
     }
   },
   toc: {
-    enable: true,           // Display the table of contents on the right side of the post
-    depth: 2                // Maximum heading depth to show in the table, from 1 to 3
+    enable: true,           // 设置是否显示文章目录 Display the table of contents on the right side of the post
+    depth: 2                // 文章目录默认显示到2级 Maximum heading depth to show in the table, from 1 to 3
   },
   favicon: [    // Leave this array empty to use the default favicon
     // {
@@ -52,8 +52,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  name: 'Jiwoo',
+  bio: '以蛙跃古池的刹那声响，凝固永恒寂寥',
   links: [
     {
       name: 'Twitter',
