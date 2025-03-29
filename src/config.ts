@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: false,
-    src: 'assets/images/demo-banner.png',   // 在这里设置你的首页横幅图片 Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: 'https://img.050413.xyz/file/1743259986965_wallhaven-l3x1ky_2560x1600.png',   // 在这里设置你的首页横幅图片 Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // 在这里设置你的横幅图片位置 Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: false,         // 这里可以设置你的横幅图片的作者信息 Display the credit text of the banner image
@@ -51,7 +51,7 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: '![wallhaven-l3x1ky_2560x1600.png](https://img.050413.xyz/file/1743259986965_wallhaven-l3x1ky_2560x1600.png)',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Jiwoo',
   bio: '以蛙跃古池的刹那声响，凝固永恒寂寥',
   links: [
