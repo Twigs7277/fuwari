@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: false,
-    src: 'https://img.050413.xyz/file/1743259986965_wallhaven-l3x1ky_2560x1600.png',   // 在这里设置你的首页横幅图片 Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: 'assets/images/wallhaven.png',   // 在这里设置你的首页横幅图片 Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // 在这里设置你的横幅图片位置 Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: false,         // 这里可以设置你的横幅图片的作者信息 Display the credit text of the banner image
