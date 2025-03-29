@@ -51,7 +51,7 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: '![wallhaven-l3x1ky_2560x1600.png](https://img.050413.xyz/file/1743259986965_wallhaven-l3x1ky_2560x1600.png)',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Jiwoo',
   bio: '以蛙跃古池的刹那声响，凝固永恒寂寥',
   links: [
