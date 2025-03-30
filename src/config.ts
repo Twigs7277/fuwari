@@ -44,9 +44,15 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.About,
     {
       name: '进来看看嘛',
-      url: 'http://nezha.050413.xyz',     // Internal links should not include the base path, as it is automatically added
+      url: 'https://nezha.050413.xyz',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
+    {
+      name: '别看别看',
+      url: 'https://img.050413.xyz',
+      external: true,
+    },
+
   ],
 }
 
